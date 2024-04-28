@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "./home/func/functions.php";
+include "./func/functions.php";
 
 $valor = "";
 $btnMemoria = true;
@@ -209,7 +209,7 @@ if(isset($_GET["limpar"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="./home/assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 <h1>Calculadora</h1>
